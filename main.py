@@ -33,9 +33,9 @@ sleep(2)
 # reverse left, to horizontal position
 m1.value(0)
 m2.value(0)
-e2.duty_u16(0)
-e1.duty_u16(32767)
-sleep(3)
+e2.duty_u16(10000)
+e1.duty_u16(30000)
+sleep(2)
 
 
 # move forward, and turn 90 degrees to the right
@@ -44,8 +44,8 @@ m2.value(1)
 
 # Turn right 90 degrees
 e1.duty_u16(0)
-e2.duty_u16(32767)
-sleep(3)
+e2.duty_u16(30000)
+sleep(1.8)
 
 
 # move forward approx. 1 meter
